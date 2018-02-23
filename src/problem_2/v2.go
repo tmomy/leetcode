@@ -35,12 +35,12 @@ func addOneListNode(l *ListNode, otherVar int) *ListNode {
 	return l
 }
 
-func printListNextNode(l *ListNode)  {
+func printListNextNode(l *ListNode) int {
 	if l.Next == nil {
 		fmt.Println(l.Val)
 	} else {
 		fmt.Println(l.Val)
 		printListNextNode(l.Next)
 	}
-
+	return 0
 }
