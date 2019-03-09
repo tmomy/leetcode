@@ -8,7 +8,7 @@ func TestIsPerfectSquare(t *testing.T) {
 		k        int
 		expected int
 	}{
-		{[]int{1, 2, 3, 4, 5}, -1, 4},
+		{[]int{1, 2, 3, 4, 5}, -1, 0},
 		{[]int{1, 2, 3, 4, 5}, 1, 4},
 	} {
 		if actually := findPairs(unit.input, unit.k); actually != unit.expected {
