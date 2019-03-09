@@ -1,8 +1,8 @@
 package main
 
 import (
-	_"leetcode/towsum"
-	_"fmt"
+	_ "fmt"
+	_ "leetcode/src/towsum"
 )
 
 func main() {
